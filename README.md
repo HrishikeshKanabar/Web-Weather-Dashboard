@@ -20,19 +20,15 @@ https://hrishikeshkanabar.github.io/Web-Weather-Dashboard/
 
  Web Application        
 :--------------------------------:|
-![Web Application ](https://github.com/HrishikeshKanabar/)      
-
-Web Application Dashboard For Forecast     
-:--------------------------------:|
-![iWeb Application  with prompt](https://github.com/HrishikeshKanabar/)    
+![Web Application ](https://github.com/HrishikeshKanabar/Web-Weather-Dashboard/blob/main/assets/images/empty.JPG)      
 
 Web Application Dashboard For Five Forecast    
 :--------------------------------:|
-![iWeb Application  with prompt](https://github.com/HrishikeshKanabar/)  
+![iWeb Application Forecast](https://github.com/HrishikeshKanabar/)  
 
 Web Application Dashboard Check For Empty Cities  
 :--------------------------------:|
-![iWeb Application  with prompt](https://github.com/HrishikeshKanabar/)  
+![iWeb Application Prompt](https://github.com/HrishikeshKanabar/Web-Weather-Dashboard/blob/main/assets/images/cityempty.JPG/)  
 
 ## Requirement achieved 
 
