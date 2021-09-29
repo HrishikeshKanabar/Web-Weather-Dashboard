@@ -24,7 +24,7 @@ https://hrishikeshkanabar.github.io/Web-Weather-Dashboard/
 
 Web Application Dashboard For Five Forecast    
 :--------------------------------:|
-![iWeb Application Forecast](https://github.com/HrishikeshKanabar/)  
+![Web Application Forecast](https://github.com/HrishikeshKanabar/Web-Weather-Dashboard/blob/main/assets/images/Dashboard.JPG)  
 
 Web Application Dashboard Check For Empty Cities  
 :--------------------------------:|
