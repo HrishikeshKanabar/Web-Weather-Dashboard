@@ -1,94 +1,93 @@
 /* Style start here */
 
-*{
+* {
   box-sizing: border-box;
 }
 
-
-.header{
-text-align: center;
-background-image: url(../images/backg.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-color: white; 
-padding: 2px ;
-margin:  10px;
+.header {
+  text-align: center;
+  background-image: url(../images/backg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2px;
+  margin: 10px;
 }
 
-.head,#list-city,form h3,#title-five{
-
- color: White;
+.head,
+#list-city,
+form h3,
+#title-five {
+  color: White;
 }
 
-#title-five h2{
+#title-five h2 {
   color: black;
 }
 .justify-space-around {
   justify-content: space-between;
 }
 
-#searchC,#city{
-  width:370px;
+#searchC,
+#city {
+  width: 370px;
 }
 
 /* display style for current weather day (temperature,humidy,speed wind and UV )*/
 .card {
-  padding: 30px 20px ;
-
+  padding: 30px 20px;
 }
 .card p {
-font-size:25px ;
+  font-size: 25px;
 }
 /* display style for current weather day (name city,date )*/
-.currentStyle{
- font-size: 30px;   
- font-weight: bold;
+.currentStyle {
+  font-size: 30px;
+  font-weight: bold;
 
- color: black;
-
+  color: black;
 }
 
-.currentStyle P{
- font-size: 25px;
+.currentStyle P {
+  font-size: 25px;
 }
 
-form h3{
-font-family: 'Train One', cursive;
-color: black; 
+form h3 {
+  font-family: "Train One", cursive;
+  color: black;
 }
-.input{
- width: 40px;
+.input {
+  width: 40px;
 }
 /* display style for 5 day forecast (temp and humidity )*/
-.dateForecast{
- text-align: center;
+.dateForecast {
+  text-align: center;
 }
-.forecast p{
+.forecast p {
   font-size: 22px;
-  text-align:center;
+  text-align: center;
 }
-.forecast{
+.forecast {
   border-radius: 5px;
   padding-bottom: 15px;
   background-color: gray;
-  color:honeydew;  
+  color: honeydew;
 }
-#weather-container{    
-  
+#weather-container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#allday{
+#allday {
   padding-bottom: 20px;
 }
 
 /* image style*/
-.imgDisplay{
-  display: block ;
-  margin-left: auto; 
-  margin-right: auto
+.imgDisplay {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Style ends  here */
