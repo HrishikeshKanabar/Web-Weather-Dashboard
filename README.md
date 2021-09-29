@@ -1,2 +1,5 @@
 # Web-Weather-Dashboard
- A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+ 
+ [Linkedin:] (https://www.linkedin.com/in/hrishikesh-kanabar-b7127365/)
+
+ [Github:] (https://github.com/HrishikeshKanabar)
