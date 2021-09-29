@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap for mutliple device view-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!--Import for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+    />
+    <!--Main Style Sheet-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="header">
+      <h2 class="display-3 head">Weather Dashboard</h2>
+    </header>
+
+    <main class="container-fluid flex-row">
+      <!--container-fluid-->
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <form id="city-form">
+            <div class="form-group">
+              <h3 for="searchCity">Search for a City:</h3>
+              <br />
+              <input id="city" type="text" placeholder="Seach your city here" />
+              <br /><br />
+              <button id="searchC" type="submit" class="btn btn-primary">
+                Search
+              </button>
+            </div>
+          </form>
+          <div>
+            <ul id="list-city" class="list-group"></ul>
+          </div>
+        </div>
+        <!-- column for Show current weather-->
+
+        <div class="col-12 col-md-9">
+          <div id="totalInfo ">
+            <h2 class="subtitle"><span id="showCurrentWeather"></span></h2>
+            <div id="weather-container" class="infoW"></div>
+          </div>
+          <br />
+          <!--5 day forecast-->
+          <div>
+            <h2 id="title-five"></h2>
+            <br />
+            <div id="forecast">
+              <div id="allday" class="row"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+     <!--Moment JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--Main Javascript-->
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
